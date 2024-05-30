@@ -8,7 +8,7 @@ public class HomeController {
 	
 	@RequestMapping("/index")
 	public String index(Model model) {
-		model.addAttribute("message", "Chào mừng lớp SD18306");
+		model.addAttribute("message", "cc");
 		return "client/index";
 	}
 }
